@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { AppNodeSpec } from '../apis';
+import { AppNode } from '../apis';
 import { PortableSchema } from '../schema';
 import { Expand } from '../types';
 import { ExtensionDataRef } from './createExtensionDataRef';
@@ -82,7 +82,7 @@ export interface CreateExtensionOptions<
   output: TOutput;
   configSchema?: PortableSchema<TConfig>;
   factory(options: {
-    spec: AppNodeSpec;
+    node: AppNode;
     config: TConfig;
     inputs: Expand<ExtensionInputValues<TInputs>>;
   }): Expand<ExtensionDataValues<TOutput>>;
@@ -100,7 +100,7 @@ export interface ExtensionDefinition<TConfig> {
   output: AnyExtensionDataMap;
   configSchema?: PortableSchema<TConfig>;
   factory(options: {
-    spec: AppNodeSpec;
+    node: AppNode;
     config: TConfig;
     inputs: Record<
       string,
@@ -119,7 +119,7 @@ export interface Extension<TConfig> {
   output: AnyExtensionDataMap;
   configSchema?: PortableSchema<TConfig>;
   factory(options: {
-    spec: AppNodeSpec;
+    node: AppNode;
     config: TConfig;
     inputs: Record<
       string,
