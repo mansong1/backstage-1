@@ -1,5 +1,13 @@
 # @backstage/frontend-app-api
 
+## 0.3.1-next.1
+
+### Patch Changes
+
+- a5a04739e1: Updates to provide `node` to extension factories instead of `id` and `source`.
+- Updated dependencies
+  - @backstage/frontend-plugin-api@0.4.0-next.1
+
 ## 0.3.1-next.0
 
 ### Patch Changes

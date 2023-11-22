@@ -1,5 +1,12 @@
 # @backstage/plugin-code-coverage
 
+## 0.2.21-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-catalog-react@1.9.2-next.1
+
 ## 0.2.21-next.0
 
 ### Patch Changes

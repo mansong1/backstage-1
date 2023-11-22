@@ -1,5 +1,15 @@
 # @backstage/plugin-adr
 
+## 0.6.11-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-catalog-react@1.9.2-next.1
+  - @backstage/plugin-search-react@1.7.4-next.1
+  - @backstage/frontend-plugin-api@0.4.0-next.1
+  - @backstage/integration-react@1.1.22-next.0
+
 ## 0.6.11-next.0
 
 ### Patch Changes

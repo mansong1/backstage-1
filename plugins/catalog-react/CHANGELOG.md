@@ -1,5 +1,15 @@
 # @backstage/plugin-catalog-react
 
+## 1.9.2-next.1
+
+### Patch Changes
+
+- 08d9e67199: Add default icon for kind resource.
+- a5a04739e1: Internal refactor of alpha exports due to a change in how extension factories are defined.
+- Updated dependencies
+  - @backstage/frontend-plugin-api@0.4.0-next.1
+  - @backstage/integration-react@1.1.22-next.0
+
 ## 1.9.2-next.0
 
 ### Patch Changes

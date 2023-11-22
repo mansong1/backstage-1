@@ -1,5 +1,11 @@
 # @backstage/frontend-plugin-api
 
+## 0.4.0-next.1
+
+### Minor Changes
+
+- a5a04739e1: The extension `factory` function now longer receives `id` or `source`, but instead now provides the extension's `AppNode` as `node`. The `ExtensionBoundary` component has also been updated to receive a `node` prop rather than `id` and `source`.
+
 ## 0.3.1-next.0
 
 ### Patch Changes
