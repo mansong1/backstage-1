@@ -18,6 +18,7 @@ export { coreExtensionData, type NavTarget } from './coreExtensionData';
 export {
   createExtension,
   type Extension,
+  type ExtensionDefinition,
   type CreateExtensionOptions,
   type ExtensionDataValues,
   type ExtensionInputValues,
